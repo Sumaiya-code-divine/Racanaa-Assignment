@@ -10,6 +10,6 @@ SELECT Name FROM gittable ORDER BY Name ASC;
 //List of states with count of cities by using COUNT, assuming state column already exists we select it using select
 
 SELECT State, COUNT(*) AS Count
-FROM cgittable
+FROM gittable
 GROUP BY State;
 
